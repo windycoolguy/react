@@ -24,9 +24,6 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
           <Parentword name="JACK"/>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
         <div class="App-btn">
           <button  type="button" onClick={this.onClick}> 
             {this.state.label} 
