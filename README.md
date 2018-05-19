@@ -15,5 +15,5 @@ You will need the following resources properly installed on the machine
 * [CSS] - awesome web-based text editor
 * [Reactjs]
 
-
-![Alt text](/../master/screen.png?raw=true "Optional Title")
+### Images:
+![Alt text](https://github.com/windycoolguy/react/blob/master/Untitled-2.png)
