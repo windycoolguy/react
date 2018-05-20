@@ -16,4 +16,4 @@ You will need the following resources properly installed on the machine
 * [Reactjs]
 
 ### Images:
-![Alt text](https://github.com/windycoolguy/react/blob/master/Untitled-2.png)
+![Alt text](https://github.com/windycoolguy/react/blob/master/screen.png)
