@@ -17,4 +17,4 @@ You will need the following resources properly installed on the machine
 
 ### Images:
 ![alt text](https://raw.githubusercontent.com/windycoolguy/react/master/screen.png)
-![Alt text](/screen.png?raw=true "Title")
+![Alt text](screen.png?raw=true "Title")
