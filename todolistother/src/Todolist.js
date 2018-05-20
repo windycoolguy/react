@@ -10,17 +10,16 @@ class ListComp extends Component {
 	  
   }
   addItem =() => {
-  	var temp = this.state.listitems;
-  	temp.push(this.state.list);
+    const {listitems:temp} = this.state;
+    temp.push(this.state.list);
   	this.setState({listitems: temp});
   }
   handleInputtingText = (e) => {
     this.setState({ list: e.target.value });
   }
   render() {
-    //<input type = "text" />
-  	const listItems = this.state.listitems.map((number) =>
-	    <li key={number.toString()}>
+  	const listItems = this.state.listitems.map((number,i) =>
+	    <li key={i}>
 	      {number}
 	    </li>
 	  );
