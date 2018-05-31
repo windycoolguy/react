@@ -6,12 +6,13 @@ class ListComp extends Component {
   
   constructor(props) {
 	  super(props);
-	  this.state = {listitems : props.content,list : ""};
+	  this.state = {listitems : [],list : ""};
 	  
   }
   addItem =() => {
     const {listitems:temp} = this.state;
-    temp.push(this.state.list);
+    if(this.state.list !== '')
+      temp.push(this.state.list);
   	this.setState({listitems: temp});
   }
   handleInputtingText = (e) => {
