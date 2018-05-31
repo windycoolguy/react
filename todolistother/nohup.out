@@ -1,0 +1,2 @@
+[2621:0527/223625.419872:ERROR:gles2_cmd_decoder.cc(17652)] [.DisplayCompositor-0x7fa7a7265400]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[2621:0527/223625.420572:ERROR:gles2_cmd_decoder.cc(12034)] [.DisplayCompositor-0x7fa7a7265400]GL ERROR :GL_INVALID_VALUE : glScheduleCALayerCHROMIUM: unsupported texture format
